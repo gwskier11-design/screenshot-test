@@ -10,6 +10,8 @@ targets:
     sources: [ScreenshotTest]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.georgew.screenshottest
+        PRODUCT_BUNDLE_IDENTIFIER: com.georgewatts.screenshottest
         GENERATE_INFOPLIST_FILE: YES
+        MARKETING_VERSION: 1.1
+        CURRENT_PROJECT_VERSION: 2
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
