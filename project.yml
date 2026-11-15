@@ -1,0 +1,15 @@
+name: ScreenshotTest
+options:
+  bundleIdPrefix: com.georgew
+  deploymentTarget:
+    iOS: '17.0'
+targets:
+  ScreenshotTest:
+    type: application
+    platform: iOS
+    sources: [ScreenshotTest]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.georgew.screenshottest
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
